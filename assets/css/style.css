@@ -1,0 +1,180 @@
+
+/* cuerpo completo del sitio web */
+body{
+    font-family:  'Raleway';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+
+/* titulo de la pagina */
+header{
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+header h1{
+    top: 7px;
+    left: 530px;
+    width: 221px;
+    height: 59px;
+    margin-top: 7px;
+    text-align: left;
+    font: normal normal medium 50px/59px 'Raleway';
+    font-size: 50px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+/* imagen principal de la pagina */
+.principal {
+    top: 73px;
+    left: 0px;
+    width: 1280;
+    height: 727px;
+    opacity: 1;
+}
+
+
+/* seccion cuerpo del medio con el detalle de la iguana y la imagen*/
+.medio{
+    top: 800px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.medio p{
+    top: 876px;
+    left: 150px;
+    width: 475px;
+    height: 197px;
+    padding-top: 76px;
+    padding-right:106px ;
+    padding-left: 150px;
+    font: normal normal 300 16px/19px 'Raleway';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.medio img{
+    top: 845px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+    padding-top: 45px;
+    padding-right:150px ;
+}
+
+
+/* seccion de caracteristicas de la pagina y clases de los iconos con sus respectivos colores y medidas*/
+.caracteristicas{
+    top: 1141px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+}
+
+.caracteristicas h2{
+    top: 1216px;
+    left: 634px;
+    height: 47px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 50px;
+    font: normal normal medium 'Raleway';
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+}
+
+.flex div .ojo{
+    color: #FFFFFF;
+}
+.flex div i{
+    font-size: 47px;
+    color: #FFFFFF;
+}
+
+.flex div p{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+
+/* ultima seccion de la pagina de galeria */
+.galeria{
+    top: 1488px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+}
+
+.galeria img{
+    top: 1561px;
+    left: 150px;
+    width: 316px;
+    height: 202px;
+    padding-right:16px;
+    padding-top: 73px;
+}
+
+
+/* pie de pagina footer */
+footer {
+    top: 1835px;
+    left: 0px;
+    width: 1280px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+}
+
+footer p{
+    top: 1874px;
+    left: 299px;
+    width: 682px;
+    height: 24px;
+    padding-top: 20px;
+    text-align: left;
+    font: normal normal 300 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
