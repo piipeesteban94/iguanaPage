@@ -1,7 +1,7 @@
 
 /* cuerpo completo del sitio web */
 body{
-    font-family:  'Raleway';
+    font-family: "Raleway", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,7 @@ header h1{
 
 
 /* seccion cuerpo del medio con el detalle de la iguana y la imagen*/
-.medio{
+.descripcion{
     top: 800px;
     left: 0px;
     width: 1280px;
@@ -70,7 +70,7 @@ header h1{
     box-shadow: 1px 12px 32px 2px rgba(0,0,0,0.94)
 }
 
-.medio p{
+.descripcion p{
     top: 876px;
     left: 150px;
     width: 475px;
@@ -84,7 +84,7 @@ header h1{
     opacity: 1;
 }
 
-.medio img{
+.descripcion img{
     top: 845px;
     left: 731px;
     width: 399px;
@@ -126,22 +126,22 @@ header h1{
     opacity: 1;
 }
 
-.flex{
+.icono{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 230px;
 }
 
-.flex div .ojo{
+.icono div .ojo{
     color: #FFFFFF;
 }
-.flex div i{
+.icono div i{
     font-size: 47px;
     color: #FFFFFF;
 }
 
-.flex div p{
+.icono div p{
     font-size: 25px;
     color: #FFFFFF;
 }
